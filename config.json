@@ -1,4 +1,4 @@
 {
-    "port" : "80",
-    "bindAddress" : ""
+    "port" : "8070",
+    "bindAddress" : "0.0.0.0"
 }

@@ -12,7 +12,7 @@ Vagrant.configure("2") do |config|
     config.vm.synced_folder ".", "/vagrant", group: "www-data", owner: "www-data"
 
     # Network settings
-    config.vm.network "private_network", ip: "192.168.10.1"
+    config.vm.network "private_network", ip: "192.168.80.80"
 
     # Provision
     config.vm.provision "ansible" do |ansible|
