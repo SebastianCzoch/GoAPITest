@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"Clients",
+				"ClientsArray"
+			],
+			[
+				"up",
+				"Uptime"
+			],
+			[
+				"Aut",
+				"AuthorizeResponse"
+			],
+			[
+				"con",
+				"content"
+			],
+			[
 				"backgrou",
 				"background-color"
 			],
@@ -134,10 +150,6 @@
 			[
 				"new",
 				"newcontent"
-			],
-			[
-				"con",
-				"content"
 			],
 			[
 				"po",
@@ -502,14 +514,6 @@
 			[
 				"admin",
 				"Admin"
-			],
-			[
-				"site",
-				"Site"
-			],
-			[
-				"fotola",
-				"fotolatka"
 			]
 		]
 	},
@@ -519,12 +523,16 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 347.0,
+		"height": 392.0,
 		"selected_items":
 		[
 			[
 				"packa",
 				"Package Control: Install Package"
+			],
+			[
+				"go",
+				"Set Syntax: Go"
 			],
 			[
 				"syntax rub",
@@ -752,10 +760,38 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/sebastianczoch/Projects/goTest"
+		"/Users/sebastianczoch/Projects/chatka",
+		"/Users/sebastianczoch/Projects/chatka/provision"
 	],
 	"file_history":
 	[
+		"/Users/sebastianczoch/Projects/chatka/data.csv",
+		"/Users/sebastianczoch/Projects/chatka/processor.php",
+		"/Users/sebastianczoch/Projects/chatka/config.json",
+		"/Users/sebastianczoch/Library/Application Support/Sublime Text 3/Packages/GoSublime/CHANGELOG.md",
+		"/Users/sebastianczoch/Library/Application Support/Sublime Text 3/Packages/GoSublime/USAGE.md",
+		"/Users/sebastianczoch/Projects/chatka/app.json",
+		"/Users/sebastianczoch/Projects/chatka/provision/site.yml",
+		"/Users/sebastianczoch/Projects/chatka/Vagrantfile",
+		"/Users/sebastianczoch/Projects/goTest/vendors/Router/Router.go",
+		"/Users/sebastianczoch/Projects/goTest/main.go",
+		"/Users/sebastianczoch/Projects/goTest/config.json",
+		"/Users/sebastianczoch/Projects/goTest/Vagrantfile",
+		"/Users/sebastianczoch/Projects/goTest/.gitignore",
+		"/Users/sebastianczoch/Projects/goTest/.vagrant/provisioners/ansible/inventory/vagrant_ansible_inventory",
+		"/Users/sebastianczoch/Projects/goTest/src/UserBundle/UserBundle.go",
+		"/usr/local/go/src/pkg/net/http/request.go",
+		"/Users/sebastianczoch/Projects/goTest/src/MaintenanceBundle/MaintenanceBundle.go",
+		"/Users/sebastianczoch/Projects/goTest/provision/roles/go/tasks/packages.yml",
+		"/Users/sebastianczoch/Projects/goTest/provision/roles/go/tasks/main.yml",
+		"/Users/sebastianczoch/Projects/goTest/provision/roles/base/tasks/packages.yml",
+		"/Users/sebastianczoch/Projects/goTest/provision/roles/base/tasks/main.yml",
+		"/Users/sebastianczoch/Projects/goTest/provision/site.yml",
+		"/Users/sebastianczoch/Desktop/Vagrantfile",
+		"/Users/sebastianczoch/Projects/goTest/src/Basics/basics.go",
+		"/Users/sebastianczoch/Projects/goTest/src/Framework/Framework.go",
+		"/Users/sebastianczoch/Projects/goTest/vendors/Configuration/Configuration.go",
+		"/Users/sebastianczoch/Projects/ansible-playbook/main.go",
 		"/Users/sebastianczoch/Projects/ansible-playbook/hosts",
 		"/Users/sebastianczoch/Projects/ansible-playbook/roles/base/templates/motd.j2",
 		"/Users/sebastianczoch/Projects/ansible-playbook/roles/base/templates/bashrc.j2",
@@ -763,7 +799,6 @@
 		"/Users/sebastianczoch/Projects/ansible-playbook/roles/base/tasks/main.yml",
 		"/Users/sebastianczoch/Projects/ansible-playbook/roles/base/tasks/packages.yml",
 		"/Users/sebastianczoch/Projects/ansible-playbook/roles/base/tasks/custom.yml",
-		"/Users/sebastianczoch/Desktop/Vagrantfile",
 		"/Users/sebastianczoch/Projects/clawrer/VagrantFile",
 		"/Users/sebastianczoch/Projects/clawrer/provision/site.yml",
 		"/Users/sebastianczoch/Projects/clawrer/provision/roles/base/tasks/main.yml",
@@ -857,43 +892,18 @@
 		"/Users/sebastianczoch/brainly/www/legacy-api/app/vendors/shells/tasks/finish_subjects_contests.php",
 		"/Users/sebastianczoch/brainly/www/legacy-api/app/vendors/shells/tasks/finish_quarterly_ranking.php",
 		"/Users/sebastianczoch/brainly/www/legacy-api/app/vendors/shells/tasks/finish_daily_moderator_ranking.php",
-		"/Users/sebastianczoch/brainly/www/legacy-api/app/controllers/components/fb_invitations.php",
-		"/Users/sebastianczoch/brainly/www/legacy-api/app/models/moderate_ticket_deleted.php",
-		"/Users/sebastianczoch/brainly/www/legacy-api/app/vendors/ApiFormaters/ModerationFormater.php",
-		"/Users/sebastianczoch/brainly/www/legacy-api/app/views/elements/tasks/moderation.ctp",
-		"/Users/sebastianczoch/brainly/www/legacy-api/app/views/layouts/messages/moderator.ctp",
-		"/Users/sebastianczoch/brainly/www/legacy-api/app/views/tasks/moderation_all.ctp",
-		"/Users/sebastianczoch/brainly/www/legacy-api/app/models/moderation_new.php",
-		"/Users/sebastianczoch/brainly/www/legacy-api/app/models/messages_conversation.php",
-		"/Users/sebastianczoch/brainly/www/legacy-api/app/views/elements/floating_panel.ctp",
-		"/Users/sebastianczoch/brainly/www/legacy-api/app/vendors/shells/update_parted_stats.php",
-		"/Users/sebastianczoch/brainly/www/legacy-api/app/models/user_panel_data.php",
-		"/Users/sebastianczoch/brainly/www/legacy-api/app/models/user_province.php",
-		"/Users/sebastianczoch/brainly/www/legacy-api/app/controllers/users_controller.php",
-		"/Users/sebastianczoch/brainly/www/legacy-api/app/vendors/dict.php",
-		"/Users/sebastianczoch/brainly/www/legacy-api/app/views/users/delete_avatar.ctp",
-		"/Users/sebastianczoch/brainly/www/legacy-api/app/vendors/models/daily_ranking_model.php",
-		"/Users/sebastianczoch/brainly/www/legacy-api/app/vendors/models/daily_moderator_ranking_model.php",
-		"/Users/sebastianczoch/brainly/www/legacy-api/app/models/advert_place.php",
-		"/Users/sebastianczoch/brainly/www/legacy-api/app/vendors/shells/tasks/unread_messages_and_notifications_mailer.php",
-		"/Users/sebastianczoch/brainly/www/legacy-api/cake/console/taskerOutput/UnreadMessagesAndNotificationsMailer.err",
-		"/Users/sebastianczoch/brainly/www/legacy-api/app/models/user.php",
-		"/Users/sebastianczoch/brainly/www/legacy-api/app/webroot/jsonschema/dev/cake/19/user/responses/user.me.res.jsonschema",
-		"/Users/sebastianczoch/brainly/www/legacy-api/app/vendors/AccessTable/APIAccessTable.php",
-		"/Users/sebastianczoch/brainly/www/legacy-api/app/vendors/api/formatters/formatter_api_users__me.php",
-		"/Users/sebastianczoch/brainly/www/legacy-api/app/tests/TestSuites/Models/BillingTest.php",
-		"/Users/sebastianczoch/brainly/www/legacy-api/app/webroot/newcss/resources/editors/textmate/Turbine.tmbundle/Snippets/linear-gradient.tmSnippet",
-		"/Users/sebastianczoch/brainly/www/legacy-api/app/models/billing.php"
+		"/Users/sebastianczoch/brainly/www/legacy-api/app/controllers/components/fb_invitations.php"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
 		"height": 93.0,
 		"where_history":
 		[
+			"/Users/sebastianczoch/Projects/goTest/provision/roles/go",
 			"/Users/sebastianczoch/brainly/www/legacy-api",
 			"/Users/sebastianczoch/brainly/www/legacy-api/app/tests",
 			"/Users/sebastianczoch/brainly/www/legacy-api",
@@ -966,6 +976,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			");\n",
+			"ďż˝",
+			"tasks",
+			"RemoteAddr",
+			")\n",
+			"\"\n",
 			"#:",
 			"msgstr \"\"",
 			"msgid \"",
@@ -1087,13 +1103,7 @@
 			"desktop",
 			"addUserLastContact",
 			"Billing->AddItem",
-			"Billings->AddItem",
-			"]",
-			"[",
-			"$result = ",
-			"checkCounter($counterPrefix, $counterId)",
-			"$counterPrefix, $counterId",
-			"tab"
+			"Billings->AddItem"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1101,6 +1111,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"ą",
+			"ę",
 			"cuser",
 			"$CUser",
 			"$this->data['model']",
@@ -1156,6 +1168,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.MarGo-output":
+	{
+		"height": 100.0
+	},
 	"output.find_results":
 	{
 		"height": 112.0
@@ -1171,7 +1187,7 @@
 	"project": "GoTest.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1179,6 +1195,26 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"vagra",
+				"Vagrantfile"
+			],
+			[
+				"config.json",
+				"config.json"
+			],
+			[
+				"router.go",
+				"vendors/Router/Router.go"
+			],
+			[
+				"config",
+				"config.json"
+			],
+			[
+				"site.yml",
+				"provision/site.yml"
+			],
 			[
 				"appcontrole",
 				"app/Controller/AppController.php"
@@ -1670,26 +1706,6 @@
 			[
 				"mont",
 				"app/vendors/models/monthly_ranking_model.php"
-			],
-			[
-				"userranking",
-				"app/vendors/models/user_ranking_model.php"
-			],
-			[
-				"week",
-				"app/vendors/models/weekly_ranking_model.php"
-			],
-			[
-				"dailyran",
-				"app/tests/TestSuites/Vendors/models/DailyRankingModelTest.php"
-			],
-			[
-				"i_new",
-				"app/vendors/models/i_new_rankings.php"
-			],
-			[
-				"newrankin",
-				"app/tests/TestSuites/Vendors/models/NewRankingModelTest.php"
 			]
 		],
 		"width": 0.0
@@ -1701,7 +1717,7 @@
 		[
 			[
 				"",
-				"~/brainly/Projekty/[Brainly] Symfony.sublime-project"
+				"~/ww/sublime/[WW] API.sublime-project"
 			],
 			[
 				"ans",
@@ -1758,7 +1774,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 229.0,
+	"side_bar_width": 232.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

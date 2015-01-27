@@ -1,31 +1,22 @@
 package MaintenanceBundle
 
 import (
-    "net/http"
-    "encoding/json"
     "time"
 )
 
-var Uptime int64
-
-func SetUptime(uptime int64) {
-    Uptime = uptime
+type MaintenanceResponse struct {
+    Uptime int64
 }
 
-func ServerStatus(rw http.ResponseWriter, request *http.Request) {
-    type ServerStatusResponse struct {
-        Uptime      int64
-    }
+type Maintenance struct {
+    StartTime int64
+}
 
-    interval := int64(time.Now().Unix() - Uptime)
-    response := ServerStatusResponse{interval}
+func Init() Maintenance {
+    return Maintenance{time.Now().Unix()}
+}
 
-    js, err := json.Marshal(response)
-    if err != nil {
-        http.Error(rw, err.Error(), http.StatusInternalServerError)
-        return
-    }
-
-    rw.Header().Set("Content-Type", "application/json")
-    rw.Write(js)
+func (m *Maintenance) GetResponse() MaintenanceResponse {
+    interval := int64(time.Now().Unix() - m.StartTime)
+    return MaintenanceResponse{interval}
 }
